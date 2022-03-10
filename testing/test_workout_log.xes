@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="(Event Name AND Lifecycle transition)" keys="concept:name lifecycle:transition"/>
+	<string key="concept:name" value="XES Event Log"/>
+	<trace>
+		<string key="concept:name" value="4234234241"/>
+		<event>
+			<string key="concept:name" value="Left building"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-22T21:12:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Left Training Area"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-22T21:14:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<boolean key="attribute_1" value="true"/>
+			<string key="concept:name" value="Entered Training Area"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-22T21:15:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Left Changing Rooms"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-22T21:16:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<boolean key="attribute_2" value="true"/>
+			<string key="concept:name" value="Entered Changing Rooms"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-22T21:17:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entered building"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-22T21:18:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4234234242"/>
+		<event>
+			<string key="concept:name" value="Left building"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-23T21:06:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Left Training Area"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-23T21:07:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<boolean key="attribute_1" value="true"/>
+			<string key="concept:name" value="Entered Training Area"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-23T21:08:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Left Drink Refill Area"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-23T21:09:01.000+01:00"/>
+			<int key="attribute_3" value="1000"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entered Drink Refill Area"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-23T21:10:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entered building"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-23T21:11:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4234234243"/>
+		<event>
+			<string key="concept:name" value="Left building"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-22T21:01:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Left Changing Rooms"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-22T21:02:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entered Changing Rooms"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-22T21:03:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entered building"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-22T21:04:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4234234244"/>
+		<event>
+			<string key="concept:name" value="Left building"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-18T20:55:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Left Training Area"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-18T20:56:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<boolean key="attribute_1" value="true"/>
+			<string key="concept:name" value="Entered Training Area"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-18T20:57:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Left Changing Rooms"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-18T20:58:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<boolean key="attribute_2" value="true"/>
+			<string key="concept:name" value="Entered Changing Rooms"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-18T20:59:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entered building"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-12-18T21:00:01.000+01:00"/>
+			<int key="attribute_3" value="0"/>
+		</event>
+	</trace>
+</log>
