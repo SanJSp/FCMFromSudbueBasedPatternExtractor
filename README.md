@@ -1,5 +1,7 @@
 # Tool chain for fCM model generation from event logs
 
+The project and research is decribed in more detail in our [paper](paper.pdf)
+
 This implementation is a semi-automated tool chain to create generate [fragment-based case models](https://www.researchgate.net/publication/307585126_A_Hybrid_Approach_for_Flexible_Case_Modeling_and_Execution) from your event logs. For this, we implement a parser from .xes event logs to the [subdue algorithm](https://github.com/holderlb/Subdue/tree/master/testing) input and then return subdues found patterns and the extracted virtual data objects.
 
 The process works as follows:
